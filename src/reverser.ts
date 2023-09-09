@@ -10,12 +10,12 @@ import normalizeURL from './normalizeURL';
  */
 export async function reverser(shortenedURL: string) {
 
+  // normalize the URL
+  shortenedURL = normalizeURL(shortenedURL);
   // filter the unsupported URL
   filter(shortenedURL);
   // validate the URL
   validateURL(shortenedURL);
-  // normalize the URL
-  shortenedURL = normalizeURL(shortenedURL);
   
   return new Promise<string>((resolve, reject) => {
     request({
