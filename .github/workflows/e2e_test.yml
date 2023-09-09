@@ -1,4 +1,4 @@
-name: Unit Test
+name: E2E test
 on: [push, pull_request]
 jobs:
   test:
