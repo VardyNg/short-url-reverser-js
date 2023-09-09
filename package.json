@@ -16,6 +16,15 @@
     "url": "git+https://github.com/VardyNg/short-url-reverser-js.git"
   },
   "author": "",
+  "keywords": [
+    "short url",
+    "shorten url",
+    "reverse",
+    "lookup",
+    "url",
+    "short",
+    "reverser"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VardyNg/short-url-reverser-js/issues"
