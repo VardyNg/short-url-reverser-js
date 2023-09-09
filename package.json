@@ -2,7 +2,7 @@
   "name": "shorturl-reverser-js",
   "version": "1.0.0",
   "description": "A js library for lookup short url",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "directories": {
     "test": "test"
   },
