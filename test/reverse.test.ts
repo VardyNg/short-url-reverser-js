@@ -52,8 +52,8 @@ describe('reverser', () => {
   it
     .each([
       { url: 'https://thismustbenotworking.com', error: 'ENOTFOUND'},
-      { url: 'https://notavalidurl', error: 'getaddrinfo ENOTFOUND notavalidurl'},
-      { url: 'http://notavalidurl', error: 'getaddrinfo ENOTFOUND notavalidurl'},
+      { url: 'https://notavalidurl', error: 'getaddrinfo EAI_AGAIN notavalidurl'},
+      { url: 'http://notavalidurl', error: 'getaddrinfo EAI_AGAIN notavalidurl'},
       { url: 'udp://notavalidurl', error: 'Invalid protocol: udp:'},
     ])
     ('should throw an error if the URl is invalid', async (data) => {
