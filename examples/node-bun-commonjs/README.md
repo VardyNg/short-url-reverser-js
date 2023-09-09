@@ -3,7 +3,7 @@ d # shorturl-reverser example for Node/Bun - CommonJS
 1. Setup npm link
     in shorturl-reverser
     ```sh
-    npm link
+    npm build & npm link
     ``` 
 
     in this directory
