@@ -26,7 +26,7 @@
     "reverser"
   ],
   "author": "VardyNg",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/VardyNg/short-url-reverser-js/issues"
   },
