@@ -36,7 +36,7 @@ describe('reverser', () => {
       { url: 'https://thismustbenotworking.com', error: 'ENOTFOUND'},
       { url: 'https://notavalidurl', error: 'getaddrinfo EAI_AGAIN notavalidurl'},
       { url: 'http://notavalidurl', error: 'getaddrinfo EAI_AGAIN notavalidurl'},
-      { url: 'udp://notavalidurl', error: 'Invalid protocol: udp:'},
+      { url: 'udp://notavalidurl', error: 'Invalid URL'},
     ])
     ('should throw an error if the URl is invalid', async (data) => {
       await expect(reverser(data.url)).rejects.toThrow(data.error);
