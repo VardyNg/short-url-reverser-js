@@ -14,6 +14,10 @@ jest.mock('../src/validateURL', () => ({
   default: jest.fn()
 }));
 
+/**
+ * 
+ * @group e2e
+ */
 describe('reverser', () => {
 
   beforeEach(() => {
@@ -27,7 +31,7 @@ describe('reverser', () => {
 
   it
     .each([
-      { shortenedURL: 'bit.ly/3LdilY2', originalURL: 'https://www.youtube.com/watch?v=NZlClr_ivb4' },
+      { shortenedURL: 'bit.ly/3PcFOJL', originalURL: 'https://www.youtube.com/watch?v=bo5j8SE3HdU&list=RDbo5j8SE3HdU&start_radio=1' },
       { shortenedURL: 'tinyurl.com/4hfst357', originalURL: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
       { shortenedURL: 't.ly/OpseN', originalURL: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
       { shortenedURL: 'rb.gy/yqnom', originalURL: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
