@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "build": "tsc",
     "test:unit": "jest --config jestconfig.json --group=unit",
     "test:e2e": "jest --config jestconfig.json --group=e2e",
     "lint": "tslint -p tsconfig.json"
