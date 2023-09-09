@@ -1,0 +1,14 @@
+{
+  "name": "bun-commonjs",
+  "version": "1.0.0",
+  "description": "d # shorturl-reverser example for Node/Bun - CommonJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shorturl-reverser": "^1.0.0"
+  }
+}
