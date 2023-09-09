@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test:unit": "jest --config jestconfig.json --group=unit",
+    "test:e2e": "jest --config jestconfig.json --group=e2e",
     "lint": "tslint -p tsconfig.json"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/VardyNg/short-url-reverser-js#readme",
   "dependencies": {
     "@types/request": "^2.48.8",
+    "jest-runner-groups": "^2.2.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
