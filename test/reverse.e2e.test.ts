@@ -1,34 +1,12 @@
 import {
   reverser 
 } from '../src/reverser';
-import filter from '../src/filter';
-import validateURL from '../src/validateURL';
-
-jest.mock('../src/filter', () => ({
-  __esModule: true, 
-  default: jest.fn()
-}));
-
-jest.mock('../src/validateURL', () => ({
-  __esModule: true,
-  default: jest.fn()
-}));
 
 /**
  * 
  * @group e2e
  */
 describe('reverser', () => {
-
-  beforeEach(() => {
-    (filter as jest.Mock).mockImplementation(() => {});
-    (validateURL as jest.Mock).mockImplementation(() => {});
-  });
-
-  afterEach(() => {
-    jest.clearAllMocks();
-  });
-
   it
     .each([
       { shortenedURL: 'bit.ly/3PcFOJL', originalURL: 'https://www.youtube.com/watch?v=bo5j8SE3HdU&list=RDbo5j8SE3HdU&start_radio=1' },
