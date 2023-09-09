@@ -3,6 +3,11 @@ import {
   InvalidURLError,
 } from '../src/errors';
 
+
+/**
+ * 
+ * @group unit
+ */
 describe('urlValidation', () => {
   it
     .each([

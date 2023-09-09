@@ -1,5 +1,9 @@
 import { lacksProtocol } from "../../src/utils";
 
+/**
+ * 
+ * @group unit
+ */
 describe('lacksProtocol', () => {
   it
     .each([

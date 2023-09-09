@@ -7,6 +7,10 @@ jest.mock('../src/constants', () => ({
   disallowedDomains: ['disallowed.com'], // these are example domains, replace with actual values if needed
 }));
 
+/**
+ * 
+ * @group unit
+ */
 describe('filter function', () => {
 
   afterEach(() => {

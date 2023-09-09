@@ -1,7 +1,10 @@
 import normalizeURL from '../src/normalizeURL';
 import { lacksProtocol } from '../src/utils';
 
-
+/**
+ * 
+ * @group unit
+ */
 describe('normalizeURL', () => {
   
   afterEach(() => {
