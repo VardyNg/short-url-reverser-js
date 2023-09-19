@@ -31,8 +31,7 @@ Use the function
   ```
 
 ### Example
-See [examples](https://github.com/VardyNg/short-url-reverser-js/examples).
-
+See [examples](https://github.com/VardyNg/short-url-reverser-js/tree/main/examples).
 ### Contribution guidelines 📝
 Your contributions are always welcome! Even if it's just a typo or a missing comma, we'll appreciate it.
 - Fork the repository 🍴
